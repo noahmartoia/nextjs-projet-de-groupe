@@ -1,15 +1,11 @@
 "use client";
 
-import * as dotenv from 'dotenv'
-dotenv.config()
 import Head from "next/head";
 import { Inter } from "next/font/google";
-import { MongoClient } from "mongodb";
-import styles from "../styles/Home.module.css";
-import user from "../composants/composants2";
+import styles from "../../styles/Home.module.css";
+import user from "../../composants/composants3";
 
 const inter = Inter({ subsets: ["latin"] });
-// const client = new MongoClient(process.env.URI);
 export default function Home() {
   return (
     <>
@@ -21,7 +17,7 @@ export default function Home() {
       </Head>
         <div className={styles.description}>
           <div className={styles.margin}>
-            
+            {user()}
           </div>
         </div>
     </>
