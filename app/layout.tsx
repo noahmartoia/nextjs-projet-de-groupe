@@ -21,7 +21,7 @@ export default function RootLayout({
           <a href='/' className={styles.darkred}>
             studio
           </a>
-          <div className={styles.margin}>
+          <div className={styles.flex}>
             <a href="signin">creer</a>
             <a href="login">se connecter</a>
           </div>

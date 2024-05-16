@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function user() {
     return <div>
-        <h2>User back login</h2>
+        <h1>User back connection</h1>
     </div>
 }
 export default user

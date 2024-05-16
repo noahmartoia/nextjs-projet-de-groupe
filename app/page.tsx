@@ -17,8 +17,7 @@ export default function Home() {
       </Head>
         <div className={styles.description}>
           <div className={styles.margin}>
-            <a href="signin">creer</a>
-            <a href="login">se connecter</a>
+            
           </div>
         </div>
     </>
