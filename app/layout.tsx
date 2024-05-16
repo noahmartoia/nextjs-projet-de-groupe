@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body>
       <main className={`${styles.main} ${inter.className}`}>
       <div className={styles.description}>
@@ -22,8 +22,9 @@ export default function RootLayout({
             studio
           </a>
           <div className={styles.flex}>
-            <a href="signin">creer</a>
-            <a href="login">se connecter</a>
+            <a href="compteur">compteur</a>
+            <a href="todo">todolist</a>
+            <a href="apik">api</a>
           </div>
         </div>
         {children}
